@@ -13,6 +13,14 @@ public class StringEx {
         System.out.printf("%c %s %s\n", v1, v2, v3);
         System.out.println(v3.hashCode());
         System.out.println(v2.hashCode());
+
+
         System.out.println(v4.hashCode());
+
+        int a = 5, b=4;
+        float c;
+        System.out.println(c=a%b);
+
+
     }
 }

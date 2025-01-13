@@ -1,5 +1,7 @@
 package day02;
 
+import java.util.Scanner;
+
 public class BooleanEx {
     public static void main(String[] args) {
         //참과 거짓을 의미하는 논리 리터럴 true, false...
@@ -16,5 +18,9 @@ public class BooleanEx {
 
         System.out.println(bool==20);
         System.out.println(0<bool && bool<20);
+
+
+
+
     }
 }
