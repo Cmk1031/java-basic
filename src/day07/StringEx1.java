@@ -1,8 +1,9 @@
 package day07;
 
-public class StringEx1  {
+public class StringEx1 {
     public static void main(String[] args) {
         String ssn = "9910311234567";
+        // 문자열 찾기
         char gender = ssn.charAt(6);
         System.out.println(gender);
 
@@ -34,7 +35,6 @@ public class StringEx1  {
         for (String token : tokens) {
             System.out.println(token);
         }
-
 
 
     }
