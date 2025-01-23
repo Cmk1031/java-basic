@@ -19,13 +19,18 @@ DBCP 커넥션 풀, 스레드 플, 캐시, 로그 기록 객체 운영....)
 3. Lazy initialization
    객체 생성에 대한 관리를 내부적으로 처리
    메서드를 호출했을 때 인스턴스 변수의 null 유무에 따라 초기화 하거나 있는 걸 반환하는 기법
-   Thread Safe하지 않은 단점이 있다.
+   Thread Safe하지 않다는 단점이 있다.
 4. Thread safe initialization
 5. Double-Checked Locking
 6. Bill Pugh Solution
    멀티쓰레드 환경에서 안전하고 Lazy Loading(나중에 객체 생성)
    클래스 안에 내부 클래스 두어서
 7. Enum 이용
+
+- 싱글톤의 문제점
+1. 모듈간의 의존성이 높아진다.
+2. SOLID 원칙: 객체지향 프로그래밍이 지향하는 원칙
+3. TDD(테스트 주도 개발)
 
  */
 
