@@ -10,9 +10,21 @@ public class WeekMain {
         int year = now.get(Calendar.YEAR);
         //일, 요일, 시간, 분,초
         int month = now.get(Calendar.MONTH) +1;
+        int week = now.get(Calendar.DAY_OF_WEEK);
         int day = now.get(Calendar.DAY_OF_WEEK);
         int hour = now.get(Calendar.HOUR);
         int minute = now.get(Calendar.MINUTE);
         int second = now.get(Calendar.SECOND);
+
+        switch(week) {
+            case 1 : today = Week.SUNDAY; break;
+            case 2 : today = Week.MONDAY; break;
+            case 3 : today = Week.TUESDAY; break;
+            case 4 : today = Week.WEDNESDAY; break;
+            case 5 : today = Week.THURSDAY; break;
+            case 6 : today = Week.FRIDAY; break;
+            case 7 : today = Week.SATURDAY; break;
+
+        }
     }
 }
