@@ -24,6 +24,5 @@ enum SingletonEnum {
     singleton
     }
      *//*
-
 }
 */
